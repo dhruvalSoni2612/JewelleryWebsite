@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Narayan Jewellers</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="img/nackles.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav_bar">
+        <div class="logo_container">
+          <a href="#"><img class="logo_img" src="img/logoEdit.jpg" alt="narayan Jewellers"></a>
+        </div>
+        <div class="search_bar">
+          <input type="text" class="search_input" placeholder="Search for Gold Jewellery, Diamond..."/>
+          <button class="icon camera_icon border"><span class="material-symbols-outlined">
+            image_search
+            </span></button>
+          <button class="icon mic_icon border"><span class="material-symbols-outlined">
+              mic
+              </span></button>
+          <button class="icon search_icon"><span class="material-symbols-outlined">
+                search
+                </span></button>
+        </div>
+        <div class="action_bar">
+          <div class="link">
+            <a href="">
+              <div class="action_container">
+                <span class="material-symbols-outlined">
+                  diamond
+                </span>
+                <span class="action_name">Diamond</span>
+              </div>
+            </a>
+          </div>
+          <div class="link">
+            <a href="">
+              <div class="action_container">
+                <span class="material-symbols-outlined">
+                  store
+                </span>
+                <span class="action_name">Stores</span>
+              </div>
+            </a>
+          </div>
+          <div class="dropdown">
+            <a href="#">
+              <div class="action_container">
+                <span class="material-symbols-outlined">
+                  person
+                </span>
+                <span class="action_name">Account</span>
+              </div>
+            </a>
+            <div class="dropdown-content">
+              <p id="account_text">My Account</p>
+              <p id="login_text">Login to access your account</p>
+              <div class="login_container">
+              <a href="html/login.html" class="login">LOG IN</a>
+              <a href="html/signup.html" class="signup">SIGN UP</a>
+              </div>
+            </div>
+          </div>
+          <div>
+            <a href="">
+              <div class="action_container">
+                <span class="material-symbols-outlined">
+                  favorite
+                </span>
+                <span class="action_name">wishlist</span>
+              </div>
+            </a>
+          </div>
+          <div>
+            <a href="">
+              <div class="action_container">
+                <span class="material-symbols-outlined">
+                  shopping_cart
+                </span>
+                <span class="action_name">Cart</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="menu_section">
+        <div class="menu">
+          <div class="menu_list">
+            <a href="">All Jewellery</a>
+            <a href="">gold</a>
+            <a href="">diamond</a>
+            <a href="">earrings</a>
+            <a href="">rings</a>
+            <a href="">bestsellers</a>
+            <a href="">mia</a>
+            <a href="">collections</a>
+            <a href="">wedding</a>
+            <a href="">gifting</a>
+            <a href="">golden harvest</a>
+            <a href="">more</a>
+          </div>
+        </div>
+      </section>
+      <section class="banner">
+        <div class="banner_container">
+          <img class="banner_image" src="/images/rivaah-rb-desktop.png" alt="banner" />
+        </div>
+      </section>
+
+      <section id="slide-img">
+        <div class="side-text"><p><h2>Explore New Trending <u><span class="name-initial">D</span>esigns</u></h2></p>
+          <span id="arrow">&#10551;</span></div>
+        <div id="slider">
+          <div class="navigation_btns">
+            <div class="prev nav_btn"></div>
+            <div class="next nav_btn"></div>
+          </div>
+
+          <div class="slider-carousel">
+            <div class="images main">
+              <img src="img/WomanStyleNEcles.png" alt="img 1" />
+              <div class="image-btn"><input type="button" value="Explore More"></div>
+            </div>
+
+            <div class="images">
+              <img src="img/women-necless.png" alt="img 2" />
+              <div class="image-btn"><input type="button" value="Explore More"></div>
+            </div>
+
+            <div class="images">
+              <img src="img/womanFAshionnackles.png" alt="img 3" />
+              <div class="image-btn"><input type="button" value="Explore More"></div>
+            </div>
+
+            <div class="images longimg">
+              <img src="img/manSilverChain.jpg" alt="img 4" />
+              <div class="image-btn"><input type="button" value="Explore More"></div>
+            </div>
+
+            <div class="images">
+              <img src="img/longEarringPrecious-stones.jpg" alt="img 5" />
+              <div class="image-btn"><input type="button" value="Explore More"></div>
+            </div>
+
+            <div class="images longimg">
+              <img src="img/womanNeckles.jpg" alt="img 6" />
+              <div class="image-btn"><input type="button" value="Explore More"></div>
+            </div>
+
+            <div class="images longimg">
+              <img src="img/mordernBrideNecles.png" alt="img 7" />
+              <div class="image-btn"><input type="button" value="Explore More"></div>
+            </div>
+
+            <div class="images">
+              <img src="img/manGoldWristChain.jpg" alt="img 8" />
+              <div class="image-btn"><input type="button" value="Explore More"></div>
+            </div>
+
+            <div class="images longimg">
+              <img src="img/finger-Ring.jpg" alt="img 9" />
+              <div class="image-btn"><input type="button" value="Explore More"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+      <section id="category">
+        <div class="category-text">
+          <p><h1 id="text1">Shop By Category</h1></p>
+          <hr>
+        </div>
+        <div class="category-img">
+          <div class="img-set"><img src="img/gold-coins.png" alt="chain">
+            <div class="hovercap">Gold Coins</div>
+            <div class="txt-set"><a href="">Explore</a></div>
+          </div>
+          <div class="img-set"><img src="img/bracelet.jpg" alt="chain">
+            <div class="hovercap">Bracelets</div>
+            <div class="txt-set"><a href="">Explore</a></div>
+          </div>
+          <div class="img-set"><img src="img/engagementRing.jpg" alt="chain">
+            <div class="hovercap">Engagement Rings</div>
+            <div class="txt-set"><a href="">Explore</a></div>
+          </div>
+          <div class="img-set"><img src="img/naclace-single.jpg" alt="chain">
+            <div class="hovercap">Neckwear</div>
+            <div class="txt-set"><a href="">Explore</a></div>
+          </div>
+          <div class="img-set"><img src="img/nosepin.jpg" alt="chain">
+            <div class="hovercap">Nose Pins</div>
+            <div class="txt-set"><a href="">Explore</a></div>
+          </div>
+          <div class="img-set"><img src="img/mangal-sutra.jpg" alt="chain">
+            <div class="hovercap">Mangalsutras</div>
+            <div class="txt-set"><a href="">Explore</a></div>
+          </div>
+          <div class="img-set"><img src="img/Finger-ringbg.jpg" alt="chain">
+            <div class="hovercap">Finger Rings</div>
+            <div class="txt-set"><a href="">Explore</a></div>
+          </div>
+          <div class="img-set"><img src="img/pendal.jpg" alt="chain">
+            <div class="hovercap">Pendant Sets</div>
+            <div class="txt-set"><a href="">Explore</a></div>
+          </div>
+          <div class="img-set"><img src="img/chains.jpg" alt="chain">
+            <div class="hovercap">Chains</div>
+            <div class="txt-set"><a href="">Explore</a></div>
+          </div>
+          <div class="img-set"><img src="img/bangles.jpg" alt="chain">
+            <div class="hovercap">Bangles</div>
+            <div class="txt-set"><a href="">Explore</a></div>
+          </div>
+          <div class="img-set"><img src="img/earringbg.jpg" alt="chain">
+            <div class="hovercap">Earrings</div>
+            <div class="txt-set"><a href="">Explore</a></div>
+          </div>
+          <div class="img-set"><img src="img/payal.jpg" alt="chain">
+            <div class="hovercap">Payals</div>
+            <div class="txt-set"><a href="">Explore</a></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="gender">
+        <div class="gender-text">
+          <p><h1 id="text2">Shop By Gender</h1></p>
+          <hr>
+        </div>
+
+        <div class="gender-img">
+          <div class="gimg-set"><img src="img/manGoldChain.jpg" alt="men">
+            <div class="fullcap men">Shop For Men</div>
+            <div class="txt-set txt-set2"><a href="">Explore</a></div>
+          </div>
+
+          <div class="gimg-set gimg-set2"><img src="images/kid.jpg" alt="kids">
+              <div class="fullcap kids">Shop For Kids</div>
+              <div class="txt-set txt-set2"><a href="">Explore</a></div>
+          </div>
+
+          <div class="gimg-set"><img src="images/Woman.webp" alt="women">
+            <div class="fullcap women">Shop For Women</div>
+            <div class="txt-set txt-set2"><a href="">Explore</a></div>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="gift">
+
+        <div class="gift-txt">
+          <p><h1 id="text3">Gifts & more</h1></p>
+          <hr>
+        </div>
+        <div class="gift-img">
+          <div class="one giftcard" id="img1"><a href=""><img src="images/birthday.png" alt="birthday"></a>
+          </div>
+          <div class="two giftcard" id="img2"><a href=""><img src="images/birth.png" alt="baby"></a>
+          </div>
+          <div class="three giftcard" id="img3"><a href=""><img src="img/anniversarygift.jpg" alt="anni">
+            <div class="gift-text" id="anni">Anniversary</div></a>
+          </div>
+          <div class="four giftcard" id="img4"><a href=""><img src="images/festival.png" alt="festive"></a>
+          </div>
+          <div class="five giftcard" id="img5"><a href=""><img src="images/personalise.png" alt="person"></a>
+          </div>
+          <div class="six giftcard" id="img6"><a href=""><img src="img/bridal.jpg" alt="bride">
+            <div class="gift-text" id="wed">Wedding</div></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="ytplay">
+        <div class="ytvideo">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/xuuNZQwhEn4?si=y0l0E48XQVTy3NTW?rel=0?version=3&autoplay=1&mute=1&controls=1&&showinfo=0&&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="flip-box">
+          <div class="logo-img">
+            <div class="front-side">
+              <img src="img/Nameplate.jpg" alt="name">
+            </div>
+            <div class="back-side">
+              <h2 class="address">Address:- 12 Shop, Jewell Market, Opp. Lal Tower, Mg Road, India.</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr class="end2">
+
+      <footer>
+        <div class="f-item-con">
+            <div class="app-info">
+                <span class='app-name'>
+                    <span class='app-initial'>N</span>arayan <span class="app-initial">J</span>ewellers
+                </span>
+                <p>Your <strong>Sparkel</strong>, Our <strong>Passion</strong>... <br>
+                Adorn your <strong>Beauty</strong> with <strong>Elegance</strong>.</p>
+            </div>
+            <div class="useful-links">
+                <div class="footer-title">Useful Links</div>
+                <ul>
+                    <li><a href="signup.html">Sign In</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Advertise with Us</a></li>
+                    <li><a href="">Terms and Conditions</a></li>
+                </ul>
+            </div>
+            <div class="help-sec">
+                <div class="footer-title">Help</div>
+                <ul>
+                    <li><a href="">Help Me</a></li>
+                    <li><a href="">Feedback</a></li>
+                    <li><a href="">Report a Issue</a></li>
+                </ul>
+            </div>
+            <div class="g-i-t">
+                <div class="footer-title">Get in Touch</div>
+                <form action="/" method="post" class="space-y-2">
+                    <input type="text" name="g-name" class="g-inp" id="g-name" placeholder='Name' />
+                    <input type="email" name="g-email" class="g-inp" id="g-email" placeholder='Email' />
+                    <textarea type="text" name="g-msg" class="g-inp h-40 resize-none" id="g-msg"
+                        placeholder='Message...'></textarea>
+                    <button type="submit" class='f-btn'>Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class='cr-con'>Copyright &copy; 1960 | Narayan Jewellers</div>
+    </footer>
+    </main>
+
+    <script>
+      const prev = document.querySelector(".prev");
+      const next = document.querySelector(".next");
+      const images = document.querySelector(".slider-carousel").children;
+      const totalImages = images.length;
+      let currentIndex = 0;
+
+      // Event Listeners to previous and next buttons
+      prev.addEventListener("click", () => {
+        previousImage();
+      });
+
+      next.addEventListener("click", () => {
+        nextImage();
+      });
+
+      setInterval(() => {
+        nextImage();
+      }, 10000);
+
+      // Function to go to next Image
+      function nextImage() {
+        images[currentIndex].classList.remove("main");
+        if (currentIndex == totalImages - 1) {
+          currentIndex = 0;
+        } else {
+          currentIndex++;
+        }
+
+        images[currentIndex].classList.add("main");
+      }
+
+      // Function to go to previous Image
+      function previousImage() {
+        images[currentIndex].classList.remove("main");
+        if (currentIndex == 0) {
+          currentIndex = totalImages - 1;
+        } else {
+          currentIndex--;
+        }
+
+        images[currentIndex].classList.add("main");
+      }
+    </script>
+  </body>
+</html>
