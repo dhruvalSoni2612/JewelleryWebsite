@@ -60,6 +60,10 @@ body {
     border: none;
     color:#b18585;
   }
+  .icon:hover{
+    position: relative;
+    top: 2%;
+  }
   .search_icon{
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -295,6 +299,7 @@ body {
     }
   .img-set{
     margin-bottom: 15px;
+    position: relative;
   }
   .hovercap{
     position: absolute;
@@ -392,12 +397,6 @@ body {
   
   .men{
     color:royalblue;
-  }
-  .kids{
-    color: red;
-  }
-  .women{
-    color: hotpink;
   }
   
   .gimg-set:hover .fullcap {

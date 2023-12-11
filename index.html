@@ -174,60 +174,14 @@
       <section class="video_banner">
           <a href="#"><video src="./assets/Spiritual-collection-w.mp4" autoplay loop muted></video></a>
       </section>
+
+
       <section id="category">
         <div class="category-text">
           <p><h1 id="text1">Shop By Category</h1></p>
           <hr>
         </div>
-        <div class="category-img">
-          <div class="img-set"><img src="./img/gold-coins.png" alt="chain">
-            <div class="hovercap">Gold Coins</div>
-            <div class="txt-set"><a href="">Explore</a></div>
-          </div>
-          <div class="img-set"><img src="./img/bracelet.jpg" alt="chain">
-            <div class="hovercap">Bracelets</div>
-            <div class="txt-set"><a href="">Explore</a></div>
-          </div>
-          <div class="img-set"><img src="./img/engagementRing.jpg" alt="chain">
-            <div class="hovercap">Engagement Rings</div>
-            <div class="txt-set"><a href="">Explore</a></div>
-          </div>
-          <div class="img-set"><img src="./img/naclace-single.jpg" alt="chain">
-            <div class="hovercap">Neckwear</div>
-            <div class="txt-set"><a href="">Explore</a></div>
-          </div>
-          <div class="img-set"><img src="./img/nosepin.jpg" alt="chain">
-            <div class="hovercap">Nose Pins</div>
-            <div class="txt-set"><a href="">Explore</a></div>
-          </div>
-          <div class="img-set"><img src="./img/mangal-sutra.jpg" alt="chain">
-            <div class="hovercap">Mangalsutras</div>
-            <div class="txt-set"><a href="">Explore</a></div>
-          </div>
-          <div class="img-set"><img src="./img/Finger-ringbg.jpg" alt="chain">
-            <div class="hovercap">Finger Rings</div>
-            <div class="txt-set"><a href="">Explore</a></div>
-          </div>
-          <div class="img-set"><img src="./img/pendal.jpg" alt="chain">
-            <div class="hovercap">Pendant Sets</div>
-            <div class="txt-set"><a href="">Explore</a></div>
-          </div>
-          <div class="img-set"><img src="./img/chains.jpg" alt="chain">
-            <div class="hovercap">Chains</div>
-            <div class="txt-set"><a href="">Explore</a></div>
-          </div>
-          <div class="img-set"><img src="./img/bangles.jpg" alt="chain">
-            <div class="hovercap">Bangles</div>
-            <div class="txt-set"><a href="">Explore</a></div>
-          </div>
-          <div class="img-set"><img src="./img/earringbg.jpg" alt="chain">
-            <div class="hovercap">Earrings</div>
-            <div class="txt-set"><a href="">Explore</a></div>
-          </div>
-          <div class="img-set"><img src="./img/payal.jpg" alt="chain">
-            <div class="hovercap">Payals</div>
-            <div class="txt-set"><a href="">Explore</a></div>
-          </div>
+        <div class="category-img"> 
         </div>
       </section>
 
@@ -236,47 +190,20 @@
           <p><h1 id="text2">Shop By Gender</h1></p>
           <hr>
         </div>
-
         <div class="gender-img">
-          <div class="gimg-set"><img src="./img/manGoldChain.jpg" alt="men">
-            <div class="fullcap men">Shop For Men</div>
-            <div class="txt-set txt-set2"><a href="">Explore</a></div>
-          </div>
-
-          <div class="gimg-set gimg-set2"><img src="./images/kid.jpg" alt="kids">
-              <div class="fullcap kids">Shop For Kids</div>
-              <div class="txt-set txt-set2"><a href="">Explore</a></div>
-          </div>
-
-          <div class="gimg-set"><img src="./images/Woman.webp" alt="women">
-            <div class="fullcap women">Shop For Women</div>
-            <div class="txt-set txt-set2"><a href="">Explore</a></div>
-          </div>
-
         </div>
       </section>
 
       <section class="gift">
-
         <div class="gift-txt">
           <p><h1 id="text3">Gifts & more</h1></p>
           <hr>
         </div>
         <div class="gift-img">
-          <div class="one giftcard" id="img1"><a href=""><img src="./images/birthday.png" alt="birthday"></a>
-          </div>
-          <div class="two giftcard" id="img2"><a href=""><img src="./images/birth.png" alt="baby"></a>
-          </div>
-          <div class="three giftcard" id="img3"><a href=""><img src="./images/anniversary.png" alt="anni"></a>
-          </div>
-          <div class="four giftcard" id="img4"><a href=""><img src="./images/festival.png" alt="festive"></a>
-          </div>
-          <div class="five giftcard" id="img5"><a href=""><img src="./images/personalise.png" alt="person"></a>
-          </div>
-          <div class="six giftcard" id="img6"><a href=""><img src="./images/wedding.png" alt="bride"></a>
-          </div>
         </div>
       </section>
+
+
 
       <section class="ytplay">
         <div class="ytvideo">
@@ -336,49 +263,8 @@
     </footer>
     </main>
 
-    <script>
-      const prev = document.querySelector(".prev");
-      const next = document.querySelector(".next");
-      const images = document.querySelector(".slider-carousel").children;
-      const totalImages = images.length;
-      let currentIndex = 0;
-
-      // Event Listeners to previous and next buttons
-      prev.addEventListener("click", () => {
-        previousImage();
-      });
-
-      next.addEventListener("click", () => {
-        nextImage();
-      });
-
-      setInterval(() => {
-        nextImage();
-      }, 10000);
-
-      // Function to go to next Image
-      function nextImage() {
-        images[currentIndex].classList.remove("main");
-        if (currentIndex == totalImages - 1) {
-          currentIndex = 0;
-        } else {
-          currentIndex++;
-        }
-
-        images[currentIndex].classList.add("main");
-      }
-
-      // Function to go to previous Image
-      function previousImage() {
-        images[currentIndex].classList.remove("main");
-        if (currentIndex == 0) {
-          currentIndex = totalImages - 1;
-        } else {
-          currentIndex--;
-        }
-
-        images[currentIndex].classList.add("main");
-      }
-    </script>
+    <script src="./js/NextPrevBtn.js"></script>
+    <script src="./js/items.js"></script>
+    <script src="./js/index.js"></script>
   </body>
 </html>
