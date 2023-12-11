@@ -77,9 +77,14 @@ body {
     flex-direction: column;
     align-items: center;
   }
+  .action_container:hover{
+    position: relative;
+    top: 2%;
+  }
   .dropdown-content {
     display: none;
     position: absolute;
+    right: 150px;
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -111,7 +116,7 @@ body {
     display: flex;
   }
   .login{
-    background-color: rgb(249, 175, 175);
+    background-color: #6b92a4;
     height: 15px;
     width: 60px;
     border-radius: 7px;
@@ -120,7 +125,7 @@ body {
     margin-left: 15px;
   }
   .signup{
-    background-color: rgb(148, 113, 113);
+    background-color: #d0d0d2;
     height: 15px;
     width: 66px;
     border-radius: 7px;
@@ -289,9 +294,7 @@ body {
       margin-bottom: 90px;
     }
   .img-set{
-    width: fit-content;
-    height: fit-content;
-    position: relative;
+    margin-bottom: 15px;
   }
   .hovercap{
     position: absolute;
@@ -419,67 +422,18 @@ body {
   .gift-img {
     display: flex;
     flex-wrap: wrap;
-      /* display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      grid-template-rows: repeat(2, 1fr);
-      grid-column-gap: 2px;
-      grid-row-gap: 2px;
-  
-      justify-content: center;
-      align-content: center;
-      justify-items: center;
-      align-items: center; */
+    justify-content: space-evenly;
       }
-      
-      /* .one { grid-area: 1 / 1 / 2 / 2; }
-      .two { grid-area: 2 / 1 / 3 / 2; }
-      .three { grid-area: 1 / 2 / 2 / 3; }
-      .four { grid-area: 2 / 2 / 3 / 3; }
-      .five { grid-area: 1 / 3 / 3 / 4; }
-      .six { grid-area: 1 / 4 / 3 / 5; } */
   
       .gift-img img{
         width: 90%;
         height: 80%;
       }
-      /* #img3 img{
-        width: 213px;
-        height: 213px;
-      } */
-      .giftcard{
-        position: relative;
-      }
-      .gift-text{
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size:40px;
-        font-weight: bolder;
-        font-family:'Times New Roman', Times, serif;
-        font-style: italic;
-        color:#605e5c;
-      }
+
       .gift-img a:hover{
         opacity: 0.90;
       }
-      #anni{
-        top: 82px;
-        left: 0px;
-        width: 213px;
-        height: 213px;
-      }
-      #wed{
-        top: 308px;
-        left: 82px;
-        width: 262px;
-        height: 67px;
-        color:red;
-      }
-      .six img{
-        width: 378px;
-        opacity: 0.70;
-      }
+      
       .ytplay{
         display: flex;
         justify-content: space-evenly;
