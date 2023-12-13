@@ -1,5 +1,4 @@
 onLoad();
-
 function onLoad() {
     displayCategorySection();
     displayGenderSection();

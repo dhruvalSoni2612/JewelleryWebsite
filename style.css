@@ -80,10 +80,27 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* position: relative; */
   }
   .action_container:hover{
     position: relative;
     top: 2%;
+  }
+
+  .cart-item-count{
+    position: relative;
+    background-color: rgba(255, 2, 2, 0.683);
+    border-radius: 40%;
+    width: 12px;
+    color:white;
+    left:10px;
+    bottom: 48px;
+    white-space: nowrap;
+    text-align: center;
+    line-height: 18px;
+    height: 16px;
+    font-size: 18px;
+    font-weight: 700;
   }
   .dropdown-content {
     display: none;
