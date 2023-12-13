@@ -1,7 +1,7 @@
 const products = [
     {
         id: '001',
-        image: '/images/1.jpg',
+        image: '../images/1.jpg',
         item_name: 'Eclectic Fancy Diamond Drop Earrings in White and Rose Gold',
         price: 44839,
         weight: 3.123,
@@ -9,7 +9,7 @@ const products = [
     },
     {
         id: '002',
-        image: '/images/2.jpg',
+        image: './images/2.jpg',
         item_name: 'Magnificent Floral Diamond Stud Earrings in Yellow and White Gold',
         price: 39842,
         weight: 2.983,
