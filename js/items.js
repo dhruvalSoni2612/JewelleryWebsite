@@ -1,7 +1,7 @@
 const products = [
     {
         id: '001',
-        image: 'images/1.jpg',
+        image: './images/1.jpg',
         item_name: 'Eclectic Fancy Diamond Drop Earrings in White and Rose Gold',
         price: 44839,
         weight: 3.123,
@@ -9,7 +9,7 @@ const products = [
     },
     {
         id: '002',
-        image: 'images/2.jpg',
+        image: './images/2.jpg',
         item_name: 'Magnificent Floral Diamond Stud Earrings in Yellow and White Gold',
         price: 39842,
         weight: 2.983,
@@ -17,7 +17,7 @@ const products = [
     },
     {
         id: '003',
-        image: 'images/3.jpg',
+        image: './images/3.jpg',
         item_name: 'Pear Shape Contemporary Drop Earrings',
         price: 49573,
         weight: 3.748,
@@ -25,7 +25,7 @@ const products = [
     },
     {
         id: '004',
-        image: 'images/4.webp',
+        image: './images/4.webp',
         item_name: 'Radial Gold and Diamond Pendant',
         price: 56323,
         weight: 1.523,
@@ -33,7 +33,7 @@ const products = [
     },
     {
         id: '005',
-        image: 'images/5.jpg',
+        image: './images/5.jpg',
         item_name: 'Fancy Diamond and Rose Gold Pendant',
         price: 43273,
         weight: 1.093,
@@ -41,7 +41,7 @@ const products = [
     },
     {
         id: '006',
-        image: 'images/6.webp',
+        image: './images/6.webp',
         item_name: 'Stunning Tiered Diamond Rings',
         price: 46829,
         weight: 3.843,
@@ -49,7 +49,7 @@ const products = [
     },
     {
         id: '007',
-        image: 'images/7.webp',
+        image: './images/7.webp',
         item_name: 'Springtide Grace Bracelet',
         price: 34263,
         weight: 2.23,
@@ -57,7 +57,7 @@ const products = [
     },
     {
         id: '008',
-        image: 'images/8.jpg',
+        image: './images/8.jpg',
         item_name: 'Charming Dainty Gold Chain',
         price: 36782,
         weight: 4.423,
@@ -65,7 +65,7 @@ const products = [
     },
     {
         id: '009',
-        image: 'images/9.webp',
+        image: './images/9.webp',
         item_name: 'Love & Light Gold Bracelet',
         price: 46839,
         weight: 4.33,
@@ -73,7 +73,7 @@ const products = [
     },
     {
         id: '10',
-        image: 'images/10.webp',
+        image: './images/10.webp',
         item_name: 'Radiant Gold Chain',
         price: 36745,
         weight: 4.432,
@@ -81,7 +81,7 @@ const products = [
     },
     {
         id: '11',
-        image: 'images/11.jpg',
+        image: './images/11.jpg',
         item_name: 'Alluring Petite Gold Mangalsutra',
         price: 46739,
         weight: 5.13,
@@ -89,7 +89,7 @@ const products = [
     },
     {
         id: '12',
-        image: 'images/12.jpg',
+        image: './images/12.jpg',
         item_name: 'Splendid Gold Jhumka Earrings',
         price: 37876,
         weight: 2.423,
