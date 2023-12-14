@@ -9,7 +9,7 @@ function onLoad(){
 
     let wishlistItemStr = localStorage.getItem('wishlistItem');
     wishlistItem = wishlistItemStr ? JSON.parse(wishlistItemStr) : [];
-    
+
     displayJewelleryItems();
     displayCartIcon();
 
@@ -47,7 +47,7 @@ function displayJewelleryItems() {
         <div class="product-container">
             <div class="product-details">
                 <img class='product-image' src='${product.image}' alt="product">
-                <a href="#" onclick="addToWishlist(${product.id})"><span class="material-symbols-outlined wishlist">
+                <a href="#" onclick="addToWishlist(${product.id}); alert('added to Wishlist')"><span class="material-symbols-outlined wishlist">
                     favorite  
                     </span></a>
                 <p class="product-name">${product.item_name}</p>
@@ -58,5 +58,3 @@ function displayJewelleryItems() {
     });
     containerElement.innerHTML = innerHTML;
 };
-
-
