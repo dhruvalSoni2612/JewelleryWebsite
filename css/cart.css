@@ -103,7 +103,7 @@
 
 @media only screen and (max-width: 1000px) {
   .cart-page {
-    width: 183%;
+    width: 100vw;
     margin-left: 25%;
     flex-direction: column;
     margin-top: 70px;

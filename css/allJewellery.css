@@ -54,10 +54,3 @@
   border: none;
   background-color: transparent;
 }
-
-@media only screen and (max-width: 1000px) {
-  .products {
-    width: 183%;
-    margin-top: 70px;
-  }
-}
